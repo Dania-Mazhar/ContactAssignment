@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell_pc.contactassignment.MainActivity">
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/info"
+    android:gravity="center"
+    android:text="ConactInformation"
+    android:textSize="20dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/level1"
+        android:gravity="center"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignRight="@+id/info"
+        android:layout_below="@+id/info" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/prgsbar1"
+        android:layout_above="@+id/info"
+        style="?android:attr/progressBarStyleHorizontal"
+
+        />
+
+</RelativeLayout>
